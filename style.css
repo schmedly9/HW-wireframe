@@ -1,34 +1,32 @@
-
-body {
-    text-decoration-color: #777777;
-    background-color: #ebebeb;
-    width: 960px;
+body {font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  text-decoration-color: #777777;
+  background-color: #ebebeb;
+  width: 960px;
 }
-header {
-
-
+.header {text-align: center;
 }
 
-
-nav {
-
-
-}
-sec {
-    float: left;
-    width: 495px;
-
-
-
-}
-aside {
-    float: right;
+.nav {
+    height: 88px;
     
-
-
+    text-align: justify;
+    border: 15px;
 }
-article {
-    float: ;
-
-
+.section {
+    background-color: orange;    
+  float: left;
+  width: 495px;
+}
+.aside {
+    text-align: center;
+align-self: right;
+  background-color: yellowgreen;
+}
+.article {
+    background-color: green;
+}
+.footer {
+    clear: both;
+  text-align: center;
+  background-color: aquamarine;
 }
